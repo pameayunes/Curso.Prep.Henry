@@ -1,0 +1,17 @@
+Tarea
+
+Conceptos
+
+Variables: son los datos que usamos para trabajar. Información que nos permite hacer algo, por ejemplo, hacer cálculos, pedirle al usuario que ingrese algo, mostrar algún mensaje por la consola, etc. Las variables comprenden distintos tipos de datos: pueden ser números, palabras, caracteres, fechas, etc.
+
+Strings: son un tipo de variables que representan una cadena de caracteres, es decir, pueden ser texto, palabras, por ejemplo, cuando queremos escribir "Hola". No las podemos usar para operaciones aritméticas como suma y resta.
+
+Funciones: sirven para hacer cálculos u operaciones que se deben llevar a cabo más de una vez en nuestro programa. Para hacer dichas operaciones, la función necesita datos del exterior, por ejemplo, datos ingresados por distintos usuarios. Estos datos se llaman argumentos. Por ejemplo, quiero hacer un programa para que el alumno ingrese sus notas y pueda conocer su promedio en determinada materia, la función para calcular el promedio recibirá como argumento las notas para hacer el cálculo. Si otro estudiante usa el programa, pues ingresará otras notas y obtendrá otro resultado, y así sucesivamente. Además, para que el estudiante pueda ver las notas en la pantalla, la función lo hará mediante la instrucción return, que sirve para devolver los datos. En resumen, la función hace algo, por ejemplo un cálculo, una operación, para poder hacer esto recibe datos que vienen de afuera y para devolver el resultado de ese cálculo u operación se usa "return".
+
+Declaraciones: es afirmar algo, decir que algo es de cierta manera, ya sea cierto o no, por ejemplo, el cielo es azul. La estructura de control de flujo conocida como "if" (que significa si) permite evaluar una declaración para hacer una cosa si dicha declaración es verdadera, o hacer otra cosa si es falsa.
+
+Si su edad es >= a 18 -----> usted puede entrar
+De lo contrario -----> usted no puede entrar
+
+Valores booleanos: son valores que pueden ser verdaderos o falsos (true, false). Sirven para las estructuras de control de flujo por que los programas evaluarán si, básicamente, las declaraciones o la información que se presenta es verdadera o falsa para realiazr ciertas acciones.
+
