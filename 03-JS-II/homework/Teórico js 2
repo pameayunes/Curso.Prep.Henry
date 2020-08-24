@@ -1,0 +1,11 @@
+Teórico js 2
+
+For: es una estructura de control de flujo que permite ejecutar un bloque de código una cantidad finita de veces (una cantidad que es conocida). El bloque de código se ejecutará mientras se cumpla cierta condición una "n" cantidad de veces.
+
+&& - || - ! : estos son operadores lógicos, que nos permiten comparar dos operandos en el caso de los dos primeros, y uno en el caso del !, para determinar si la expresión es verdadera o falsa.
+
+&&: evalúa dos expresiones y arroja "true" como resultado si ambas son verdaderas. Ejemplo: 3<4 && 6===6 es true.
+
+||: evalúa dos expresiones y arroja "true" como resultado si alguna de ellas es verdadera. Ejemplo: 3<4 || 5>6 es true.
+
+!: este es el operador "NOT" y significa "no", si una expresión es verdadera y le pongo el not pasará a ser falsa. Ejemplo: ! 3<4 es false.
