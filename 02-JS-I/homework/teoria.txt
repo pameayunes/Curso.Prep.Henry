@@ -2,7 +2,7 @@ Tarea
 
 Conceptos
 
-Variables: son los datos que usamos para trabajar. Información que nos permite hacer algo, por ejemplo, hacer cálculos, pedirle al usuario que ingrese algo, mostrar algún mensaje por la consola, etc. Las variables comprenden distintos tipos de datos: pueden ser números, palabras, caracteres, fechas, etc.
+Variables: son elementos que se crean para guardar información que luego necesitaremos para trabajar. Son datos que nos permite hacer algo, por ejemplo, hacer cálculos, pedirle al usuario que ingrese algo, mostrar algún mensaje por la consola, etc. Las variables comprenden distintos tipos de datos: pueden ser números, palabras, caracteres, fechas, etc.
 
 Strings: son un tipo de variables que representan una cadena de caracteres, es decir, pueden ser texto, palabras, por ejemplo, cuando queremos escribir "Hola". No las podemos usar para operaciones aritméticas como suma y resta.
 
