@@ -1,0 +1,33 @@
+Objetos: son estructuras donde podemos almacenar datos que pertenecen a una misma cosa de una manera más simple. Estos datos van a ser atributos o propiedades de una misma cosa, y cada una de esas propiedades va a tener un valor. Por ejemplo, podríamos llamar a un objeto "perro", que puede tener las siguientes propiedades con sus valores respectivos:
+
+color: té con leche
+raza: caniche
+edad: 2 años
+
+Los valores pueden ser cualquier tipo de dato: cadena, número, booleano, matriz, función o incluso otro objeto.
+
+
+Propiedades: son atributos, características del objeto que queremos almacenar y van a contener un determinado valor. Cuando hablamos de los objetos esas propiedades se denominan claves.
+
+Métodos: en algunos casos se denominan funciones. Cuando haya una función guardada dentro de un objeto, la vamos a llamar "método". Los métodos generalmente son acciones que queremos realizar y para realizarlas podemos necesitar o no argumentos. Por ejemplo. Dentro de un objeto puedo incluir una propiedad que contenga una función que me permita calcular el promedio (por ejemplo, de un alumno) y para hacerlo necesita argumentos que serían las notas.
+
+For..in: es parecido a la estructura de control "for" y nos sirve para recorrer las propiedades de un objeto, ya que estas, a diferencia del array, no se guardan con índices numéricos.
+
+Notación de puntos vs. notación de corchetes: son dos formas de llamar objetos. La notación de corchetes es muy similar a la manera en que accedemos a los valores de un array. La notación de punto es más fácil porque requiere menos caracteres pero tiene que ser literal el nombre de la clave, en cambio con los corchetes podemos usar una cadena o número o una VARIABLE que apunte a una cadena o número.
+
+
+var estudiante = {
+	nombre: "Pamela",
+	apellido: "Aguilar",
+	cursando: true,
+	notas: [10,8,9],
+	promedio: function calcularPromedio(notas) {
+		var suma = 0;
+		for (i = 0; i < notas.length; i++) {
+			suma += notas[i];
+		}
+		return suma/notas.length;
+
+	}
+	
+}
